@@ -1,0 +1,15 @@
+{
+  "name": "ruby_book",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Hiro102520 <hirofumi.kobean102520@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^2.0.0",
+    "prettier": "^2.6.2"
+  },
+  "scripts": {
+    "format": "find . -name *.rb | xargs node_modules/.bin/prettier --write",
+    "lint": "bundle exec guard"
+  }
+}
